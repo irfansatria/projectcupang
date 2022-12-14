@@ -45,7 +45,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="row no-gutters ftco-services">
       <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
         <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+          <div class="icon bg-dark active d-flex justify-content-center align-items-center mb-2">
             <span class="flaticon-shipped"></span>
           </div>
           <div class="media-body">
@@ -57,7 +57,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
      
       <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
         <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+          <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
             <span class="flaticon-award"></span>
           </div>
           <div class="media-body">
@@ -69,7 +69,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
       <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
         <div class="media block-6 services mb-md-0 mb-4">
-          <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+          <div class="icon bg-dark d-flex justify-content-center align-items-center mb-2">
             <span class="flaticon-customer-service"></span>
           </div>
           <div class="media-body">
@@ -83,7 +83,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 
-<section class="ftco-section">
+<section class="ftco-section bg-info">
   <div class="container">
     <div class="row justify-content-center mb-3 pb-3">
       <div class="col-md-12 heading-section text-center ftco-animate">
@@ -102,7 +102,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <a href="<?php echo site_url('shop/product/' . $product->id . '/' . $product->sku . '/'); ?>" class="img-prod">
                 <img class="img-fluid" src="<?php echo base_url('assets/uploads/products/' . $product->picture_name); ?>" alt="<?php echo $product->name; ?>">
                 <?php if ($product->current_discount > 0) : ?>
-                  <span class=" btn btn-info"><?php echo count_percent_discount($product->current_discount, $product->price, 0); ?>%</span>
+                  <span class=" btn btn-dark"><?php echo count_percent_discount($product->current_discount, $product->price, 0); ?>%</span>
                 <?php endif; ?>
                 <div class="overlay"></div>
               </a>
@@ -164,7 +164,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   </div>
 </section>
 
-<section class="ftco-section testimony-section">
+<section class="ftco-section testimony-section bg-light">
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section  ftco-animate text-center">

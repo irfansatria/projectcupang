@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       
     </div>
   </section>
-  <footer class="ftco-footer ftco-section">
+  <footer class="ftco-footer ftco-section bg-light">
     <div class="container">
         <div class="row">
             <div class="mouse">
